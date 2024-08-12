@@ -5,7 +5,10 @@
 -   This App is for maintain the task on the daily basis. Basically this is the To-Do App.
 
 ### instruction: -  How to Run:
-    1. This is a React - Vite project. So first run in the terminal: **npm run dev**. The web app will run on your browser.
+    1. This is a React - Vite project. So first run in the terminal: 'cd to-do'
+        - 'npm install' (install NODE Module if no NODE Module is their)
+        - 'npm run dev' 
+    The web app will run on your browser.
 
     2. Write your daily task in the text area and to add click on **ADD button** or press 'Enter key'. 
 
