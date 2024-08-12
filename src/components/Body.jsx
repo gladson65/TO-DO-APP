@@ -27,8 +27,6 @@ function Body() {
         if (value && !isEdited) {
             todoList[index] = value;
             
-            console.log("from edit", index)
-            
         }
         // Add new task
         else {
@@ -57,8 +55,6 @@ function Body() {
     function editListItem(index) {
         let newEdit = [...todoList] 
         setEdit(newEdit[index])
-        // setIndex(index);
-        console.log(edit);
     }
 
     function handlePress(e) {
@@ -67,7 +63,7 @@ function Body() {
         }
     }
 
-    console.log("from array", todoList)
+
     return (
         <>
             <div className='todo-body'>
